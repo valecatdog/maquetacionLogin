@@ -1,0 +1,100 @@
+<!--cambiar el iconito al coso de ceibal
+centrar todo
+la barrita para bajar tiene que estar del otro lado, la imagen siempre se queda quieta
+tengo que ponerle estilos a los botones (redondeer bordes, colores)
+tambien al text area (redonderar bordes, que cambie de color el coso de documento (por lo menos, 
+si se puede ir para arriba mejor)
+falta ponerle una profiedad, float? flexible? 
+no anda el plachlder
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Ingreso Ceibal</title>
+</head>
+<body>
+    <!--div login-->
+    <div id="div_login">
+
+    <!--DIV IMAGEN-->
+        
+
+
+    <!--DIV CONTENIDO-->
+        <div>
+
+            <div id="cont_centrado">
+
+                <div id="inicio_sesion">
+                    <div id="img_logo">
+                        <img src="images/nombreCeibal.png" id="img_nombre_ceibal">
+                    </div>
+                
+                    <p>
+                        <strong>Inicio de sesión</strong>
+                    </p>
+                </div>
+                 
+
+                <!--DIV INGRESO-->
+                <div id="ingreso_cedula">
+                    <form>
+                        <input type="text" placeholder="Documento" required>
+
+                        <input type="password" placeholder="Contraseña" required>
+                    
+                        <input type="submit" id="btn_inicio_normal" class="botones">
+                        
+                    </form>
+                    
+                </div>
+
+                <p class="letra_chica" id="ingresar_con">
+                    o ingresar con
+                </p>
+
+                <button class="botones" id="botones_azules"> <!--falta imagen-->
+                    <img src="images/icono_google.png" class="imagenes_chicas">
+                    Google ceibal
+                </button>
+
+                <button class="botones" id="botones_azules"><!--falta imagen-->
+                    <img src="images/ceip_icono.png" class="imagenes_chicas">
+                    DGEIP
+                </button>
+
+                <p class="letra_chica" id="crear_cuenta">
+                    Si aún no te has registrado como usuario/a y querés <br>
+                    acceder a las plataformas, <br>
+                    hacé <a href="https://aulas.ceibal.edu.uy/registrarme"> clic aquí.</a>
+                </p>
+            </div>
+
+        
+            <!--bloque gris al final-->
+            <div id="footer">
+                <a>
+                    Política de privacidad
+                </a>
+            </div>
+
+        </div>
+
+       
+
+    </div>
+
+
+    <!--div imagen
+    puedo hacer que cuando le hagass click te lleva al coso, como en al pagina real-->
+    <div id="div_imagen">
+        <img src="images/imagenCostado.png" id="imagen1930">
+
+    </div>
+
+</body>
+</html>
+

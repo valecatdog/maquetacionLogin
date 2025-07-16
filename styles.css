@@ -1,0 +1,128 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#div_login{
+    display: inline-block;
+    text-align: center;
+    margin: 42px;
+}
+
+#cont_centrado{
+    position: relative;
+    left: auto;
+    right: auto;
+    margin-left: 50px;
+    display: block;
+}
+
+#div_imagen{
+    display: inline-block;
+    vertical-align: top;
+    position: sticky;
+    
+}
+
+#imagen1930{
+    vertical-align: top;
+    position: sticky;
+}
+
+#img_logo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#img_nombre_ceibal{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#botones_azules{
+    background-color: #CCECEA;
+    padding: 9px 8px 9px 4px;
+    width: 160px;
+    height: 40px;
+    font-size: 12px;
+    display: block;
+    margin: 9px 8px 9px 4px;
+    font-weight: bolder;
+    position:relative;
+    left: 83px;
+
+}
+
+#inicio_sesion{
+    margin-bottom: 90px;
+}
+
+#ingreso_cedula{
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    position: relative;
+    left: 10px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#btn_inicio_normal{
+    background-color: #00635D;
+    position: relative;
+    left: 90px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+.botones{
+    border: none;
+    border-radius: 50px;
+}
+
+.letra_chica{
+    font-size: 12px;
+    color: gray;
+}
+
+#crear_cuenta{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imagenes_chicas{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 10px;
+}
+
+#footer{
+    position: absolute;
+    background-color: gray;
+    padding-right: 147px;
+    padding-left: 147px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#ingresar_con{
+    position:relative;
+    left: 15px;
+    margin: 30px;
+}
